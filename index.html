@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<head>
-    <title>A Simple Landing Page</title>
-    <script src="script.js"></script>
-</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
+    <title>Beginner NodeJs Coaching Program</title>
 
-<h1 style="text-align:center">VsCode is awesome.</h1>
-<h2>Is everything working fine?</h2>
-    <p style="text-align:center">This might be the only Good MS has done.</p>
-    <p> Just Another Para</p>
-    <p>Just anoottthhherrr para</p>
+    <style>
+      #Header {
+        text-align: center;
+        font-family: Inter;
+      }
+      #Button {
+        cursor: pointer;
+      }
 
-    <script src="https://fast.wistia.com/embed/medias/n83q526xkv.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_n83q526xkv videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/n83q526xkv/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-        
-</body>
+      #Video {
+        align-items: center;
+      }
+    </style>
+  </head>
 
+  <body>
+    <div id="Header">
+      <h1>Learn NodeJs in just 7 days.</h1>
+    </div>
+    <div id="Video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/PY-AycMkEAg"
+        frameborder="0"
+        allow="clipboard-write; encrypted-media;"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="Button">
+      <button type="button" onclick="alert('You pressed the button!')">
+        Join now
+      </button>
+    </div>
+  </body>
 </html>
